@@ -18,7 +18,7 @@
                     <div class="height-50" style="background: url(<?php echo $heythere_lite_image_attributes[0]; ?>); background-size: cover; background-position: center center; background-repeat: no-repeat;">
                     </div>
                 <?php } ?>
-                <div id="page-main-article-content" class="main-article-content break-word">
+                <div id="page-main-article-content" class="main-article-content-break-word-contact">
                     <?php the_content(); ?>
                     <?php if( $numpages > 1 ) { ?>
                         <div class="main-article-pagination">

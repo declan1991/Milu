@@ -5,6 +5,54 @@
  Template:     heythere-lite
 */
 
-body {
-	background-color: red;
+/* Page.contact.php
+---------------------------------- */ 
+
+/* Header styling */ 
+
+.font-size-7 {
+	font-size: 4em;
 }
+
+/* form styling */ 
+
+.main-article-content-break-word-contact {
+
+	display: grid; 
+	grid-template-columns: repeat(2, 50%);
+    grid-gap: 4%;
+	grid-template-areas:
+		"left right"
+	;	
+	padding: 4%;
+    margin: 0 10% 0 10%;
+
+}
+
+.main-article-content-break-word-contact {
+	grid-area: left; 
+
+} 
+
+.main-article-content-break-word-contact > p {
+	font-family: 'Roboto', sans-serif;
+	grid-area: left;
+	width: 50%;
+	font-size: 0.9rem;
+	line-height: 1.8;
+	text-align: left;
+}
+
+strong {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.wpcf7 {
+	grid-area: right;
+    text-align: left;
+}
+
+
+
+
