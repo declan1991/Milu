@@ -4,3 +4,7 @@
  Description:  This is the first theme created by Declan a child theme of WordPress' Twenty Sixteen theme
  Template:     heythere-lite
 */
+
+body {
+	background-color: red;
+}
