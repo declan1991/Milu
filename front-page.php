@@ -22,7 +22,6 @@ if ( 'posts' == get_option( 'show_on_front' ) ) {
         ?>
 
 
-
             <section class="section relative" style="background: linear-gradient(<?php echo esc_attr($heythere_lite_color_1); ?>,<?php echo esc_attr($heythere_lite_color_1); ?>), url(<?php echo esc_url($heythere_lite_image_attributes[0]); ?>); background-size: cover; background-position: center center; background-repeat: no-repeat;">
                 <div class="relative vertical-align z-index-3">
                     <h1 class="home-title color-hover-light width-94 relative left-1 roboto-condensed font-size-7 font-weight-700 text-uppercase break-word">
@@ -47,18 +46,18 @@ if ( 'posts' == get_option( 'show_on_front' ) ) {
 
         </main>
 
-        <div class="fixed bottom-1 right-1 text-right">
-            <?php
-            wp_nav_menu( array(
-                'theme_location' => 'all-projects-link',
-                'menu_class' => 'all-projects-menu roboto font-size-0-9 font-weight-500 text-uppercase line-height-1-4 text-shadow-1 letter-spacing-0-0-5',
-                'container' => false
-            ) );
-            ?>
-        </div>
+        <div class="fixed bottom-1 right-1 text-right"></div>
 
     <?php get_footer(); ?>
 
 <?php
 }
 ?>
+
+   <!--<?php
+            /*wp_nav_menu( array(
+                'theme_location' => 'all-projects-link',
+                'menu_class' => 'all-projects-menu roboto font-size-0-9 font-weight-500 text-uppercase line-height-1-4 text-shadow-1 letter-spacing-0-0-5',
+                'container' => false
+            ) );
+            ?>

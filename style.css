@@ -65,6 +65,8 @@ strong {
     font-size: 30px;
 }
 
+/* Home Page styling */ 
+
 .grow-hover  {
 	font-family: 'Roboto', sans-serif;
 	color: black;
@@ -75,6 +77,8 @@ strong {
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+
+
 
 
 
