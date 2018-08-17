@@ -53,6 +53,18 @@ strong {
     text-align: left;
 }
 
+/* footer social-nav */ 
+
+.social-menu li a:before {
+	display: inline;
+    padding: 10px 0px;
+    font-family: "fontawesome";
+    /*vertical-align: middle;*/ 
+    content: "\f005";
+    color: black;
+    font-size: 30px;
+}
+
 
 
 
